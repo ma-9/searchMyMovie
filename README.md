@@ -1,7 +1,6 @@
 # Search My Show
 
 ## [Application Link](http://searchmyshow.rf.gd/)
-## [Github Server Link](https://ma-9.github.io/searchMyMovie/) Faster !!
 
 **A movie Searching web Application**
 
