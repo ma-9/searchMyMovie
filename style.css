@@ -1,0 +1,12 @@
+h3{
+    border:1px solid black; 
+    border-radius:15px;
+}
+.container{
+    background-color:wheat;
+    text-align:center;
+    /* justify-content: center; */
+}
+.tableContent{
+    text-align:center;
+}

@@ -4,39 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search My Show</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Welcome to YOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <!-- ------------- Formal NavBar --------------------- -->
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="./index.htm" class="navbar-brand">SearchMyShow</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ---------------------- Input Files ------------------ -->
+    <h3 align="center">Welcome To Your Own Restaurant</h3>
+    <hr>
     <div class="container">
-        <div class="jumbotron">
-            <h3 class="text-center">Search For Any Movie</h3>
-            <form id="searchForm">
-                <input type="text" class="form-control" id="searchText" placeholder="Search Movie...">
-            </form>
+        <label for="checkbox">Kindly Choose Your Favourite Place to Order...</label>
+        <div id="checkbox">
+            <label for="LDRP">LDRP Nasta House</label>
+            <a href="/pages/LDRP.htm" target="_blank" rel="noopener noreferrer"><button id="LDRP">View Menu</button></a>
+            <label for="LDRP">GH-6 Fast Foods</label>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><button id="LDRP">View Menu</button></a>
+            <label for="LDRP">R16 Him-Creams</label>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><button id="LDRP">View Menu</button></a>
         </div>
     </div>
-
-    <!-- ------------- Output Files---------------- -->
-    <div class="container">
-        <div id="movies" class="row"></div>
-    </div>
-
-    <!-- -------------------- Maha Bhayankar Files ------------- -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./js/main.js"></script>
 </body>
 </html>

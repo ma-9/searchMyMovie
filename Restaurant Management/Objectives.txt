@@ -1,0 +1,18 @@
+Objectives :-
+
+Home Page:	
+	Select Location
+	-> LDRP
+		=> Manchurian (FFD)
+		=> Chole Bhature
+		=> Chole Kulche
+		=> Cold Drinks
+		=> Fast Food
+	-> GH-6
+		=> Batata Poha
+		=> Pani Puri
+		=> Fast Food
+		=> Black, Gold Flake, One and Only, Advance
+	-> R16
+		=> Trupti Ice-cream Parlour
+		=> Dinner and lunch restaurants
